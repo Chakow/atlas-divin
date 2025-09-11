@@ -1,7 +1,21 @@
+:root {
+  --black: #000000;
+  --blue: #279ef8;
+  --yellow: #f8af27;
+  --green: #12965d;
+  --red: #f82727;
+  --white: #ffffff;
+  --dark-grey: #515050;
+  --grey: #696a6c;
+  --light-grey: #bcbfc3;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Bubbler One";
+  color: var(--dark-grey);
+  font-size: 20px;
 }
 
 a {
