@@ -68,3 +68,23 @@
     }
   }
 }
+.card-grec {
+  svg path {
+    fill: var(--blue) !important;
+  }
+}
+.card-romain {
+  svg path {
+    fill: var(--red) !important;
+  }
+}
+.card-egyptien {
+  svg path {
+    fill: var(--yellow) !important;
+  }
+}
+.card-nordique {
+  svg path {
+    fill: var(--green) !important;
+  }
+}
