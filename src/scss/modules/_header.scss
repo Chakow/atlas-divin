@@ -9,7 +9,8 @@ header {
     margin-bottom: 20px;
     justify-content: space-between;
     align-items: center;
-
+    margin-left: 12px;
+    margin-right: 12px;
     @media (min-width: 768px) {
       margin-left: 80px;
       margin-right: 80px;
@@ -84,6 +85,9 @@ header {
   }
   .burger-menu-logo {
     cursor: pointer;
+    svg path {
+      stroke: var(--black);
+    }
   }
 }
 @media (min-width: 768px) {

@@ -4,6 +4,7 @@
   gap: 12px;
   margin-top: 32px;
   button {
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,20 +18,59 @@
     font-family: "Caesar Dressing";
     font-size: 20px;
     margin-bottom: 8px;
+    svg path {
+      stroke: var(--white);
+    }
   }
   .pantheon-grec {
     background-color: var(--blue);
+    border: 1px solid var(--blue);
   }
   .pantheon-egyptien {
     background-color: var(--yellow);
+    border: 1px solid var(--yellow);
   }
   .pantheon-nordique {
     background-color: var(--green);
+    border: 1px solid var(--green);
   }
   .pantheon-romain {
     background-color: var(--red);
+    border: 1px solid var(--red);
   }
   @media (min-width: 992px) {
     margin-top: 0px;
+  }
+  .pantheon-grec.button-filter.is-active {
+    color: var(--blue);
+    background-color: var(--white);
+    svg path {
+      fill: var(--blue);
+      stroke: var(--blue);
+    }
+  }
+  .pantheon-egyptien.button-filter.is-active {
+    color: var(--yellow);
+    background-color: var(--white);
+    svg path {
+      fill: var(--yellow);
+      stroke: var(--yellow);
+    }
+  }
+  .pantheon-nordique.button-filter.is-active {
+    color: var(--green);
+    background-color: var(--white);
+    svg path {
+      fill: var(--green);
+      stroke: var(--green);
+    }
+  }
+  .pantheon-romain.button-filter.is-active {
+    color: var(--red);
+    background-color: var(--white);
+    svg path {
+      fill: var(--red);
+      stroke: var(--red);
+    }
   }
 }

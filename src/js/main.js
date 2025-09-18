@@ -94,3 +94,19 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   });
 });
+
+//filters button
+const buttons = document.querySelectorAll(".button-filter");
+
+buttons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    // Si le bouton cliqué est déjà actif, on le désactive
+    if (btn.classList.contains("is-active")) {
+      btn.classList.remove("is-active");
+    } else {
+      // Sinon, on retire "is-active" de tous les autres et on active celui-ci
+      buttons.forEach((b) => b.classList.remove("is-active"));
+      btn.classList.add("is-active");
+    }
+  });
+});

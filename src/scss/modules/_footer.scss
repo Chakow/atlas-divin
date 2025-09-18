@@ -11,6 +11,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
   }
   nav {
     display: flex;
