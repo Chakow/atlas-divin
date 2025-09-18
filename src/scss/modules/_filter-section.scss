@@ -1,0 +1,36 @@
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 32px;
+  button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 12px 8px;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    font-family: "Caesar Dressing";
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .pantheon-grec {
+    background-color: var(--blue);
+  }
+  .pantheon-egyptien {
+    background-color: var(--yellow);
+  }
+  .pantheon-nordique {
+    background-color: var(--green);
+  }
+  .pantheon-romain {
+    background-color: var(--red);
+  }
+  @media (min-width: 992px) {
+    margin-top: 0px;
+  }
+}

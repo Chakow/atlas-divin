@@ -1,0 +1,31 @@
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: var(--light-grey);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  width: 100%;
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-top: 1px solid;
+  }
+}

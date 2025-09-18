@@ -1,4 +1,5 @@
 :root {
+  /* mode clair (par défaut) */
   --black: #000000;
   --blue: #279ef8;
   --yellow: #f8af27;
@@ -9,6 +10,19 @@
   --grey: #696a6c;
   --light-grey: #bcbfc3;
 }
+
+body.dark-mode {
+  /* mode sombre */
+  --black: #fff;
+  --blue: #a3d7ff;
+  --yellow: #f7f43e;
+  --green: #76e5b5;
+  --red: #f8a7a7;
+  --white: #515050;
+  --dark-grey: #f7f6f6;
+  --light-grey: #696a6c;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
