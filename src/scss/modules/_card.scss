@@ -88,3 +88,10 @@
     fill: var(--green) !important;
   }
 }
+//animation
+.card {
+  transition: 0.3s;
+}
+.card:hover {
+  scale: 105%;
+}

@@ -73,4 +73,11 @@
       stroke: var(--red);
     }
   }
+  //animation
+  button {
+    transition: 0.3s;
+  }
+  button:hover {
+    scale: 103%;
+  }
 }

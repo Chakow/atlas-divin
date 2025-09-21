@@ -1,3 +1,12 @@
 .card-egyptien {
   border: 2px solid var(--yellow);
+  .symbole {
+    svg path {
+      fill: var(--yellow) !important;
+      stroke: var(--yellow) !important;
+    }
+  }
+  .card-name {
+    color: var(--yellow);
+  }
 }
