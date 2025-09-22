@@ -3,6 +3,8 @@
   flex-direction: column;
   gap: 12px;
   margin-top: 32px;
+  position: sticky;
+  top: 20px;
   button {
     cursor: pointer;
     display: flex;

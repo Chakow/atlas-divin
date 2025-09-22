@@ -1,6 +1,6 @@
 footer {
   margin-top: 40px;
-  margin-bottom: 20px;
+
   background: var(--light-grey);
   padding-top: 20px;
   padding-bottom: 20px;
@@ -36,5 +36,16 @@ footer {
   }
   svg path {
     fill: var(--black) !important;
+  }
+}
+@media (min-width: 768px) {
+  footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .copyright {
+      padding-top: 40px;
+      margin-top: 40px;
+    }
   }
 }
